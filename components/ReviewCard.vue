@@ -4,7 +4,9 @@
       <img :src="review.picture.large" alt="" />
     </div>
     <div class="text-container">
-      <h6>{{ review.login.username }}</h6>
+      <h6>
+        {{ review.name.tile }} {{ review.name.first }} {{ review.name.last }}
+      </h6>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
         quam magni beatae possimus debitis.
